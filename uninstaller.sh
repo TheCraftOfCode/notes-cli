@@ -7,8 +7,7 @@ curbash=$(cat $HOME/.bashrc)
 if [[ $curbash == *"\$HOME/notes-cli"* ]]; then
 sed "/notes-cli/d" -i $HOME/.bashrc
 source $HOME/.bashrc
-echo 'Successfully removed from PATH. You cannot use "notes" command from now '
+echo 'Successfully removed from PATH. Restart the terminal to take changes the effects.'
 else
 echo "Program not in path and 'notes' command can't be used.";
 fi
-exec bash
