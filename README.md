@@ -7,8 +7,6 @@ Node.js based command line interface tool for the Notes App
 
 ## Linux:
 
-#### To install, use ` sudo ./installer.sh` in the project folder. 
-
-**Note:** For running installer and uninstaller scripts, you would need to be a root user (atleast as of now) as the notes files are stored at /opt
+#### To install, use `./installer.sh` in the project folder.
 
 

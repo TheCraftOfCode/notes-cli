@@ -1,16 +1,17 @@
 #!/bin/bash
-test ! -d "/opt/notes-cli"  && mkdir /opt/notes-cli; echo "Added the files to the installation"
-cp * -r /opt/notes-cli 
 
-curbash=$(cat ~/.bashrc)
-if [[ $curbash != *"/opt/notes-cli"* ]]; then
-echo 'export PATH="/opt/notes-cli:$PATH"' >> ~/.bashrc;
-source ~/.bashrc
+test ! -d "$HOME/notes-cli"  && mkdir $HOME/notes-cli
+cp * -r $HOME/notes-cli
+echo "Added the files to the installation"
+curbash=$(cat $HOME/.bashrc)
+if [[ $curbash != *"$HOME/notes-cli"* ]]; then
+echo 'export PATH="$HOME/notes-cli:$PATH"' >> $HOME/.bashrc;
+source $HOME/.bashrc
 echo 'Successfully installed and added to PATH! You can now use "notes" command! '
 else
 echo 'Installation complete and You are already using "notes" command!'
 fi
-chmod +x /opt/notes-cli
+chmod +x $HOME/notes-cli
 chmod +x ./uninstaller.sh
 chmod +x clean
 echo "If you need to clear the setup files, run ./clean from THIS location"
