@@ -14,5 +14,5 @@ fi
 chmod +x $HOME/notes-cli
 chmod +x ./uninstaller.sh
 chmod +x clean
-echo "If you need to clear the setup files, run ./clean from THIS location"
+echo "You can delete the downloaded folder now."
 exec bash

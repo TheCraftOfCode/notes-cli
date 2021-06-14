@@ -1,5 +1,0 @@
-!#/bin/bash
-uninstal=$(cat uninstaller.sh)
-rm -r *
-$uninstal >> uninstaller.sh
-chmod +x uninstaller.sh
