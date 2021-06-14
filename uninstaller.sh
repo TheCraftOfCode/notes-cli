@@ -11,3 +11,4 @@ echo 'Successfully removed from PATH. Restart the terminal to take changes the e
 else
 echo "Program not in path and 'notes' command can't be used.";
 fi
+rm -r $HOME/notes-cli
