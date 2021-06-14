@@ -1,3 +1,7 @@
+# Push and pull bash scripts
+push.sh
+pull.sh
+
 # Logs
 logs
 *.log

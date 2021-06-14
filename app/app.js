@@ -1,4 +1,6 @@
 const fs = require('fs')
+// Logo Display
+console.log(fs.readFileSync(`./display/coc.ans`,{encoding: 'utf8'}))
 
-coc = fs.readFileSync(`./display/coc.ans`,{encoding: 'utf8'})
-console.log(coc)
+
+
