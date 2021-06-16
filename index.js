@@ -1,2 +1,1 @@
-#!/usr/bin/env node
 const run = require(`./app/app.js`)

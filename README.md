@@ -5,8 +5,7 @@
 # notes-cli
 Node.js based command line interface tool for the Notes App
 
-## Linux:
+#### To run, use `npm start` in the project root. 
 
-#### To install, use `./installer.sh` in the project folder.
-
+#### Or try at https://replit.com/@gunakb/notes-cli
 
